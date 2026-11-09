@@ -23,4 +23,4 @@ npm run build   # outputs dist/
 
 Pushing to `main` deploys to GitHub Pages via `.github/workflows/deploy.yml`.
 
-A **Motion: full / calm** toggle in the nav respects `prefers-reduced-motion` by default and remembers the visitor's choice.
+Full motion is on by default for every visitor. A **Motion: full / calm** toggle in the nav lets anyone switch to calm mode, and remembers the choice.

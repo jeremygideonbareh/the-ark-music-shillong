@@ -19,7 +19,8 @@
       var d = document.documentElement, p = null;
       d.classList.add('js');
       try { p = localStorage.getItem('ark-motion'); } catch (e) {}
-      var calm = p ? p === 'calm' : window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      // Full motion by default for everyone; visitors can opt into calm mode with the Motion toggle.
+      var calm = p === 'calm';
       if (calm) d.classList.add('reduce-motion');
     })();
   </script>

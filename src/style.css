@@ -519,7 +519,7 @@ button { font: inherit; color: inherit; }
 .footer__top { text-decoration: none; color: var(--sun); }
 
 /* =========================================================
-   Calm motion (OS reduced-motion or the visitor's Motion toggle)
+   Calm motion (only when the visitor picks it with the Motion toggle)
    ========================================================= */
 .reduce-motion *, .reduce-motion *::before, .reduce-motion *::after { animation: none !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 .reduce-motion .voices__track { flex-direction: column; width: auto; align-items: stretch; }

@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const root = document.documentElement;
-// "Calm" = OS reduced-motion preference, unless the visitor chose otherwise with the Motion toggle.
+// Full motion by default; "calm" only when the visitor picks it with the Motion toggle.
 const reduced = root.classList.contains('reduce-motion');
 const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
 const PALETTE = ['#ff4f9a', '#ffc21a', '#2fbf71', '#2ea8ff', '#8f6bff', '#ff7a1a'];
