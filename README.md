@@ -21,6 +21,6 @@ npm run dev
 npm run build   # outputs dist/
 ```
 
-Pushing to `main` deploys to GitHub Pages via `.github/workflows/deploy.yml`.
+Pushing to `main` builds the site and publishes `dist/` to the `gh-pages` branch (`.github/workflows/deploy.yml`), which GitHub Pages serves at https://jeremygideonbareh.github.io/the-ark-music-shillong/.
 
 Full motion is on by default for every visitor. A **Motion: full / calm** toggle in the nav lets anyone switch to calm mode, and remembers the choice.
